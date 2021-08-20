@@ -16,8 +16,8 @@
                }
                updateClock();
                function updateDate() {
-              var days = ['dimanche','lundi','mardi','mercredi','jeudi.','vendredi','samedi'];
-              var months=['janvier', 'février', 'mars', 'avril', 'mai','juin', 'juillet', 'août','septembre','octobre', 'novembre','décembre'];
+              var days = ['sunday','monday','tuesday','wenesday','thursday.','friday','saturday'];
+              var months=['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
               var m = new Date();
               var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()               
                         document.getElementById('date').innerHTML = dateString;
@@ -35,7 +35,7 @@
                                         <div id="date">dd</div>
                                 </div>
                                 <div class="message">
-                                        WELCOME; BIENVENUE; いらっしゃいませ 
+                                        WELCOME; SANKET; いらっしゃいませ 
                                 </div>
                             </div>
                             <div class="form">
@@ -46,7 +46,7 @@
                     <div class="footer">
                         <div class="nav">
                                 <ul>
-                                        <a href="http://www.kissanime.ru/">
+                                        <a href="http://animiplay.to/">
                                                 <li> アニメ  </li>
                                         </a>
                                         <a href="http://exhentai.org/">
@@ -55,8 +55,6 @@
                                         <a href="http://www.4chan.org/">
                                                 <li>yotsuba</li>
                                         </a>
-                                        <a href="https://soundcloud.com/stream">
-                                                <li>soundcloud</li>
                                         </a>
                                         <a href="http://www.pixiv.net/">
                                                 <li>ピクシブ</li>
